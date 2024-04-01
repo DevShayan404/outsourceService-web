@@ -1,0 +1,111 @@
+h4 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--e-global-color-very-dark-blue);
+}
+.text-size-16 {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--e-global-color-text);
+  font-family: "Oxygen", sans-serif;
+}
+/* ----------------------------------------- */
+.footer-section .partner-section {
+  padding: 20px 0;
+  position: relative;
+}
+.footer-section .partner-section .partner img {
+  transition: all 0.3s ease-in-out;
+}
+.footer-section .partner-section .partner img:hover {
+  transform: translateY(-5px);
+}
+.footer-section .partner-section .partner li {
+  display: inline-block;
+  margin-right: 90px;
+}
+.footer-section .partner-section .partner li:first-child {
+  margin-left: 0;
+}
+.footer-section .partner-section .partner li:last-child {
+  margin-right: -4px;
+}
+.footer-section {
+  padding-bottom: 52px;
+}
+.footer-section .footer-logo {
+  position: relative;
+  top: 18px;
+  margin-bottom: 30px;
+}
+.footer-section .middle-portion .footer-text {
+  margin-bottom: 6px;
+}
+.footer-section .middle-portion .payment-icon {
+  position: relative;
+  left: -36px;
+  bottom: 27px;
+}
+.footer-section .middle-portion {
+  border-top: 2px solid #f3f7f7;
+  padding-top: 35px;
+}
+.footer-section .middle-portion .heading {
+  margin-bottom: 18px;
+}
+.footer-section .middle-portion .line {
+  color: var(--e-global-color-accent);
+  width: 32px;
+  background-color: var(--e-global-color-accent);
+  text-align: left;
+  margin: 0 0 20px 0;
+}
+.footer-section .links .text-size-16 {
+  position: relative;
+}
+.footer-section .links ul li {
+  display: flex;
+  align-items: center;
+}
+.footer-section .links ul li:hover span {
+  color: var(--e-global-color-accent);
+}
+/* .footer-section .text:hover {
+  color: var(--e-global-color-accent);
+} */
+.footer-section .icon .text1 {
+  margin-bottom: 20px;
+}
+.footer-section .middle-portion .social-icons .circle {
+  background: #cbcbcb;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  margin-right: 2px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+.footer-section .middle-portion .social-icons .circle:hover {
+  background-color: var(--e-global-color-secondary);
+  transform: translateY(-5px);
+}
+.footer-section .middle-portion .social-icons a {
+  color: var(--e-global-color-white);
+}
+.copyright {
+  text-align: center;
+  padding: 5px 0px;
+  color: var(--e-global-color-white);
+  background-color: var(--e-global-color-secondary);
+}
+.copyright .text-size-16 {
+  color: var(--e-global-color-white);
+  margin: 0px;
+}
+
+::ng-deep.owl-theme .owl-nav {
+  display: none;
+}

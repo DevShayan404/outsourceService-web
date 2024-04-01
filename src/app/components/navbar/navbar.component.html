@@ -1,0 +1,34 @@
+<nav appScroll [ngClass]="{ scrolled: scrolled }">
+  <div class="container">
+    <div nz-row nzJustify="space-between" nzAlign="middle">
+      <div nz-col nzSpan="21">
+        <div class="nav_left">
+          <h2>LOGO</h2>
+          <!-- <figure class="navbar_logo">
+            <img src="assets/img/footer-logo.png" class="img-fluid" alt="" />
+          </figure> -->
+          <!-- ----------------------Links---------------------------- -->
+          <ul nz-menu nzMode="horizontal">
+            <li nz-menu-item nzSelected routerLink="">Home</li>
+            <li nz-submenu nzTitle="Service">
+              <ul>
+                <li nz-menu-item routerLink="service/cash-loading">
+                  Cash Loading
+                </li>
+                <li nz-menu-item routerLink="service/ACH">ACH</li>
+              </ul>
+            </li>
+            <li nz-menu-item routerLink="contact">Contact</li>
+            <li nz-menu-item>About</li>
+          </ul>
+        </div>
+      </div>
+
+      <div nz-col nzSpan="3" class="nav_right">
+        <button>
+          <span nz-icon nzType="user" nzTheme="outline"></span> Sign Up
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,283 @@
+figure {
+  margin: 0 0 0;
+}
+h1 {
+  font-size: 62px;
+  line-height: 70px;
+  font-weight: 400;
+  color: var(--e-global-color-primary);
+}
+h2 {
+  font-size: 52px;
+  line-height: 65px;
+  font-weight: 400;
+  color: var(--e-global-color-primary);
+}
+h3 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  color: var(--e-global-color-very-dark-blue);
+}
+h4 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--e-global-color-very-dark-blue);
+  margin: 0;
+}
+h6 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: var(--e-global-color-secondary);
+  font-family: "Oxygen", sans-serif;
+}
+.text-size-16 {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--e-global-color-text);
+  font-family: "Oxygen", sans-serif;
+}
+.text-size-18 {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--e-global-color-text);
+  font-family: "Oxygen", sans-serif;
+}
+/* ---------------------------------first section------------------------------- */
+main {
+  margin-top: 65px;
+}
+.sub-banner {
+  background: url("../../../assets/img/about-background.png");
+  background-color: transparent;
+  background-position: center;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 0px;
+  vertical-align: middle;
+  position: relative;
+  text-align: center;
+}
+.sub-banner .banner-section .bgshape {
+  position: absolute;
+  top: 0;
+}
+.sub-banner .banner-section .banner_content {
+  text-align: center;
+}
+.sub-banner .box {
+  box-shadow: 1px 1px 100px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 6px 35px;
+  text-align: center;
+  background-color: var(--e-global-color-white);
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+  top: 26px;
+}
+.sub-banner .box span .text-size-16 {
+  display: inline-block;
+}
+.sub-banner .dash {
+  font-size: 20px !important;
+  line-height: 30px !important;
+  display: inline-block;
+  margin: 0 6px;
+}
+.sub-banner .box .box_span {
+  color: var(--e-global-color-accent);
+}
+.sub-banner .banner-section .banner_content h1 {
+  margin-bottom: 24px;
+}
+.sub-banner .banner-section .banner_content p {
+  padding: 0 152px;
+  color: var(--e-global-color-very-dark-gray);
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "Oxygen", sans-serif;
+}
+
+/* <!-- ---------------------------------second section------------------------------- --> */
+.message-section {
+  padding: 90px 0;
+}
+.message-section .content {
+  text-align: center;
+}
+.message-section .content h6 {
+  margin-bottom: 10px;
+}
+.message-section .content h2 {
+  margin-bottom: 10px;
+}
+.message-section .element1 {
+  position: absolute;
+  left: 0;
+  margin-top: -46px;
+}
+.message-section .content .element3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.form_style::placeholder {
+  color: #cccccc;
+}
+.message-section .message_content h4 {
+  margin-bottom: 10px;
+  color: #010647;
+  font-size: 18px !important;
+}
+.message-section .message_content input {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #cccccc;
+  font-family: "Oxygen", sans-serif;
+  background-color: var(--e-global-color-white);
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  overflow: visible;
+  outline: none;
+}
+.message-section .message_content textarea {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #cccccc;
+  font-family: "Oxygen", sans-serif;
+  background-color: var(--e-global-color-white);
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  height: 110px;
+  margin-bottom: 12px;
+  resize: none;
+  outline: none;
+  overflow: auto;
+}
+.message-section .message_content .submit {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: "Oxygen", sans-serif;
+  padding: 10px 54px;
+  border-radius: 5px;
+  color: var(--e-global-color-white);
+  background-color: var(--e-global-color-secondary);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  display: block;
+  text-align: center;
+  outline: none;
+  border-style: none;
+  width: 100%;
+}
+.message-section .message_content .submit:hover {
+  background-color: var(--e-global-color-accent);
+}
+.message-section .map {
+  padding-top: 40px;
+}
+.message-section .map iframe {
+  width: 100%;
+  height: 445px;
+  border-radius: 5px;
+}
+.message-section .map iframe:hover {
+  box-shadow: 1px 1px 100px -20px #888888;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+/* <!-- ---------------------------------third section------------------------------- --> */
+.need-section {
+  background: url("../../../assets/img/about-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0 90px;
+  position: relative;
+}
+.need-section .content {
+  text-align: center;
+}
+.need-section .content h2 {
+  margin-bottom: 10px;
+}
+.need-section .content h6 {
+  margin-bottom: 10px;
+}
+.need-section .content p {
+  padding: 0 170px;
+  margin-bottom: 45px;
+}
+.need-section .service1 {
+  text-align: center;
+}
+.need-section .service2 {
+  padding-top: 120px;
+}
+.need-section .img {
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.need-section .img:hover {
+  transform: translateY(-5px);
+}
+.need-section h3 {
+  margin-bottom: 10px;
+}
+.need-section .text-size-18 {
+  padding: 0px 20px;
+  margin-bottom: 12px;
+}
+.need-section .arrow1 {
+  position: absolute;
+  left: 284px;
+  top: 20px;
+  width: max-content;
+}
+.need-section .arrow2 {
+  position: absolute;
+  right: 284px;
+  top: 48px;
+  width: max-content;
+}
+.need-section .need-layer {
+  position: absolute;
+  bottom: 0px;
+  z-index: -1;
+}
+.need-section .service1 .btn {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: var(--e-global-color-white);
+  background-color: var(--e-global-color-secondary);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+.need-section .service1 .btn:hover {
+  background-color: var(--e-global-color-accent);
+  color: var(--e-global-color-white);
+}

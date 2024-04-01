@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Condensed", sans-serif;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+:root {
+  --e-global-color-primary: #28214c;
+  --e-global-color-secondary: #00a9a4;
+  --e-global-color-accent: #ff6400;
+  --e-global-color-text: #777777;
+  --e-global-color-very-dark-blue: #010647;
+  --e-global-color-very-dark-gray: #555555;
+  --e-global-color-very-light-gray: #eeeeee;
+  --e-global-color-black: #000000;
+  --e-global-color-white: #ffffff;
+}

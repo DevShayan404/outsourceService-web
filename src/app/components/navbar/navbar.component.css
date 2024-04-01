@@ -1,0 +1,92 @@
+nav {
+  padding: 12px 30px;
+  position: fixed;
+  top: -4px;
+  width: 100%;
+  z-index: 999;
+  transition: background-color 0.3s ease;
+  background-color: #fff;
+  box-shadow: 1px 1px 100px -20px #888888;
+}
+.navbar_logo img {
+  width: 90%;
+}
+nav.scrolled {
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 5px 8px 0px;
+}
+.nav_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-right: 25px;
+}
+.nav_right button {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--e-global-color-white);
+  background-color: var(--e-global-color-accent);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-family: "Jost", sans-serif;
+  border: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.anticon {
+  font-size: 16px;
+}
+/* ----------------------Links------------------- */
+.ant-menu-horizontal {
+  border-bottom: 0;
+  font-size: 16px;
+  color: #7b85aa;
+}
+
+.ant-menu-horizontal > .ant-menu-item::after,
+.ant-menu-horizontal > .ant-menu-submenu::after {
+  display: none;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+  color: var(--e-global-color-accent);
+}
+
+::ng-deep.ant-menu-horizontal:not(.ant-menu-dark)
+  > ::ng-deep.ant-menu-item:hover,
+::ng-deep.ant-menu-horizontal:not(.ant-menu-dark)
+  > ::ng-deep.ant-menu-submenu:hover,
+::ng-deep.ant-menu-horizontal:not(.ant-menu-dark)
+  > ::ng-deep.ant-menu-item-active,
+::ng-deep.ant-menu-horizontal:not(.ant-menu-dark)
+  > ::ng-deep.ant-menu-submenu-active,
+::ng-deep.ant-menu-horizontal:not(.ant-menu-dark)
+  > ::ng-deep.ant-menu-item-open,
+::ng-deep.ant-menu-horizontal:not(.ant-menu-dark)
+  > ::ng-deep.ant-menu-submenu-open,
+::ng-deep.ant-menu-horizontal:not(.ant-menu-dark)
+  > ::ng-deep.ant-menu-item-selected,
+::ng-deep.ant-menu-horizontal:not(.ant-menu-dark)
+  > ::ng-deep.ant-menu-submenu-selected,
+::ng-deep.ant-menu-light .ant-menu-submenu-title:hover {
+  color: var(--e-global-color-accent);
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+  margin-top: -1px;
+  margin-bottom: 0;
+  padding: 0 12px;
+}
+figure {
+  margin: 0;
+}
+::ng-deep.ant-menu-title-content {
+  font-family: "Jost", sans-serif;
+}
